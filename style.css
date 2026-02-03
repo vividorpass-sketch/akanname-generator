@@ -1,0 +1,68 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #09090a;
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+
+.container {
+    background-color: blue;
+    border-radius: 8px;
+    box-shadow: blue;
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+}
+
+.input-group {
+    margin-bottom: 1.5rem;
+    text-align: left;
+}
+
+button{
+    background-color: #28a745;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1rem;
+}    
+
+p {
+    color: antiquewhite;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: oblique;
+    font-weight: italic;
+}
+
+label {
+    color: whitesmoke;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: initial;
+    font-display: block;
+}
+
+/* The hidden class used in your JavaScript */
+.hidden {
+    display: none;
+}
+
+#result-section {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-left: 5px solid #ff9900; /* A touch of Ghana gold */
+    border-radius: 8px;
+    text-align: center;
+    transition: all 0.5s ease;
+}
+
+#display-name {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #e9e1e2; /* Ghana white */
+}
+
+
+
